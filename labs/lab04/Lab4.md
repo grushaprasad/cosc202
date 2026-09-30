@@ -89,6 +89,6 @@ Once you've written your pseudocode answer the following questions:
 
 ## Step 7: Submit the write-up
 
-* **One** person in your team should export the google doc as pdf and upload it to gradescope under Lab 3
+* **One** person in your team should export the google doc as pdf and upload it to gradescope under Lab 4
 
 * **Make sure to add all the group members to the submission**
