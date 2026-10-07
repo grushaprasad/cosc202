@@ -60,8 +60,8 @@ segment(seq:str, vocab:HashSet):
 			segments.add(curr)
 			start=end
 			end = start+1
-			else:
-				end+=1
+        else:
+            end+=1
 		
 	if segments.size()==0: 
 		return null
