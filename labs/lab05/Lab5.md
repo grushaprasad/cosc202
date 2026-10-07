@@ -61,7 +61,7 @@ segment(seq:str, vocab:HashSet):
 			start=end
 			end = start+1
 		else:
-            end+=1
+			end+=1
 		
 	if segments.size()==0: 
 		return null
