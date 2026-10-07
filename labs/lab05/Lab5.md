@@ -11,7 +11,7 @@ You are given a sequence and and a vocab, and your task is to break it down into
 
 For example, consider the following vocab: 
 ```
-vocab = {'the', 'that', 'ant', 'panda', 'thing', 'near', 'in', 'saw', 'ate', 'bit'}
+vocab = {'the', 'that', 'ant', 'panda', 'thing', 'near', 'in', 'saw', 'ate', 'bit', 'attic'}
 
 s = 'theantatethatthing'
 ```
@@ -81,7 +81,7 @@ Answer the following questions in the google doc:
 	* Length of the longest word in the vocab: `L`
 	* Length of the seqeunce: `n`
 
-*Hint: In answering question 2, remind yourself about the time complexity for Hashing a string of length `m`*
+*Hint: In answering question 3, remind yourself about the time complexity for Hashing a string of length `m`*
 
 
 ## Step 2: Making the greedy algorithm more efficient by using a `Trie` to store the vocab
