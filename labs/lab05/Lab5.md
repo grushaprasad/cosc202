@@ -89,7 +89,7 @@ Answer the following questions in the google doc:
 Let's say that the vocab is stored in a `Trie` instead of a `Hashset`. Modify the algorithm from Step 1 to work with the Trie and in a way that is asymptotically more efficient than the algorithm in Step 1. You can assume that your `Trie` has the following operations: 
 
 * `add(s)`: Adds a string `s` to the Trie. Runs in `O(l)` where `l` is the length of the string `s`
-* `getChild(node)`: Gets the child of the node. Runs in `O(1)`.
+* `get_children(node)`: Returns the children of the node. Runs in `O(1)`.
 * `contains(s)`: Returns True if `s` is in a word in the Trie. Runs in `O(s)`
 * `contains_prefix(s)`: Returns True if `s` is in the Trie, even if `s` is not a word. Runs in `O(s)`
 
