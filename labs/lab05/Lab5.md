@@ -60,7 +60,7 @@ segment(seq:str, vocab:HashSet):
 			segments.add(curr)
 			start=end
 			end = start+1
-        else:
+		else:
             end+=1
 		
 	if segments.size()==0: 
